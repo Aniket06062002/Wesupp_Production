@@ -1,0 +1,262 @@
+.About_Container_01 {
+   
+    position: relative;
+    width: 100%;
+    height: 500px;
+    /* Set height according to your requirement */
+    /* background-color:  #b537d1;; */
+    /* background: linear-gradient(to right, #f5bbff, #d689e7, #a544bb, #86219c, #8d03ac); */
+    /* Red shades */
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    background-image: url("/Imgs/Vr.jpg");
+}
+
+.purpleArea {
+    position: absolute;
+    margin-top: 9rem;
+    margin-left: 5rem;
+    width: 450px;
+    /* Adjust width as needed */
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Transparent purple color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* Adjust padding as needed */
+    border: 1px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 130px;
+    border-bottom-right-radius: 70px;
+
+}
+
+h1 {
+    color: #76108d;
+    /* Set heading color */
+    font-size: 46px;
+    font-weight: 900;
+}
+
+.whitearea {
+    z-index: 4;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    width: 750px;
+    height: 12rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: -3rem;
+    margin-left: 3rem;
+
+}
+
+.whitearea h4 {
+    font-size: 30px;
+
+}
+
+.whitearea p {
+    font-size: 18px;
+
+}
+
+
+.knoebetter {
+    margin-top: 5rem;
+    background-color: #EEEEEE;
+    height: 20rem;
+    padding: 2rem;
+}
+
+.knoebetter h2 {
+    font-size: 34px;
+    color: #8d03ac;
+
+}
+
+.knoebetter p {
+    margin: 1rem;
+    font-size: 16px;
+    color: #8d03ac;
+    background-color: azure;
+    width: 75%;
+    padding: 2rem;
+    height: 10rem;
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 90px;
+
+}
+
+.OurClient {
+    /* background-color: azure; */
+    background-color: #ffffff;
+    height: 18rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.underclient{
+    display: flex;
+}
+.underclient img{
+    width: 200px;
+    height: 120px;
+    margin: 1rem;
+}
+
+.GroupCompany{
+    background-color: #EEEEEE;
+    height: 20rem;
+    padding: 1rem;
+    text-align: center;
+
+}
+.GroupCompanyinner{
+    margin: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.GroupCompanyinner img{
+    width: 150px;
+    height: 125px;
+    margin-left: 0rem;
+    margin-right: 2rem;
+    /* border-radius: 220px; */
+}
+
+#img2{
+    width: 150px;
+    
+}
+
+
+.OurLeaders{
+    background-color:#fafafa;
+    /* height: 30rem; */
+    padding: 2rem;
+    color: #9B26B5;
+    text-align: center;
+  
+
+}
+.OurLeaders h2{
+    font-size: 3rem;
+    margin: 0;
+
+}
+.OurLeaders .leaderlist{
+    display: flex;
+    justify-content: center;
+    margin-top: -1rem;
+
+}
+.OurLeaders .leaderlist2{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+.succesStory{
+    background-color: aliceblue;
+    padding: 2rem;
+    text-align: center;
+  
+
+}
+
+.succesmid{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.succesleft{
+    background-color: #14c3f8;
+    width: 40rem;
+    height: 10rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+.succesright{
+    background-color: #14c3f8;
+    width: 40rem;
+    height: 10rem;
+    margin: 1rem;
+    padding: 1rem;
+
+}
+
+.experties{
+    background-color: rgb(255, 255, 255);
+    height: 30rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.experties h2{
+    font-size: 2rem;
+    margin: 1rem;
+    color: #8d03ac;
+
+    
+}
+
+.Award{
+    background-color: #EEEEEE;
+    height: 20rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.Inverstor{
+    background-color: #fdfdfd;
+    height: 20rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.reach{
+    background-color: #a544bb;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+}
+
+.reachleft{
+    width: 30rem;
+    height: 15rem;
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+
+.reachright{
+    width: 30rem;
+    height: 15rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #EEEEEE;
+}
+
+.joinwesupp{
+    background-color: #EEEEEE;
+    height: 10rem;
+    text-align: center;
+    padding: 1rem;
+}
+.googlemap{
+    background-color: #a544bb;
+    width: 250px;
+    height: 200px;
+}

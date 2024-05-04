@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Css/Header.css">
+    <link rel="stylesheet" href="./Css/Footer.css">
+    <link rel="stylesheet" href="./Css/About.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navbar code -->
+    <div class="navbar" id="navbar">
+        <div class="logo">
+            <img src="./Imgs/logo.png" alt="" />
+
+        </div>
+
+        <div class="navmenu1">
+
+            <ul>
+                <li class="dropdown">
+                    <a to="/">Home</a>
+                    <div class="dropdown-content">
+                        <div class="left">
+                            <h1>Services</h1>
+                            <p>Discover our portfolio – constantly evolving to keep pace with the ever-changing needs of
+                                our
+                                clients.
+                            </p>
+
+                            <button id='button'>Explore More</button>
+
+
+                        </div>
+
+                        <div class="right">
+                            <div class="first">
+                                <a href="#">Softwere Development</a>
+                                <a href="#">Website Development</a>
+                                <a href="#">Mobile Application Development</a>
+                                <a href="#">WordPress</a>
+                            </div>
+                            <div class="second">
+                                <a href="#">Digital Marketing</a>
+                                <a href="#">UI / UX</a>
+                                <a href="#">Content Writing</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a to="DiscoverWesupp">Discover Wesupp</a>
+                </li>
+
+                <li class="dropdown">
+                    <a to="UnderConstructionPage">Work we offer</a>
+
+                </li>
+
+                <li class="dropdown">
+                    <a to="UnderConstructionPage">Insight</a>
+
+                </li>
+
+                <li class="dropdown">
+                    <a to="UnderConstructionPage">Clients</a>
+
+                </li>
+                <li class="dropdown">
+                    <a to="UnderConstructionPage">Hiring</a>
+
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="navmenu2">
+            <ul class="ulist">
+                <li>
+                    <a to="UnderConstructionPage">Investors</a>
+
+                </li>
+                <li>
+                    <a to="UnderConstructionPage">Contact Us</a>
+
+                </li>
+                <li>
+                    <a to="UnderConstructionPage"> Discover</a>
+
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+
+    <!-- maincode -->
+   
+    <div class="About_Container_01">
+        <div class="purpleArea">
+            <h1>Why Engaged with WeSupp?</h1>
+        </div>
+    </div>
+    <div class="whitearea">
+        <h4>
+            Wesupp means we Support
+        </h4>
+        <p>
+            At WESUPP, we are dedicated to helping businesses thrive by providing beautifully smart software solutions. With a global user base of over 1 million, our suite of 10+ products is designed to support your sales and marketing, enhance collaboration and support, streamline financial operations, and optimize recruitment processes. With WESUPP, you can focus on what matters most – growing your business.
+        </p>
+    </div>
+
+    <div class="knoebetter">
+        <h2>How Wesupp Start</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, ullam sed non enim aperiam rem quasi eligendi ea. Sit corrupti voluptates consectetur, delectus officia ipsa molestias suscipit voluptatibus. Eaque, quasi officiis. Dolorum possimus animi nemo nobis placeat necessitatibus est atque officia suscipit modi culpa id quae asperiores, cumque laboriosam odio dicta quas. Itaque ipsa natus minima eius. Architecto eum quae odit? Totam expedita excepturi suscipit sequi numquam magni fugit. Quam eum consequuntur error iusto non. Ex cupiditate veritatis laudantium saepe qui? Iste magni incidunt optio a, earum, rem fuga exercitationem dolorem reprehenderit ducimus ab ratione aspernatur, possimus tenetur ex dolore?</p>
+
+    </div>
+
+    <div class="OurClient">
+        <h1>Our Clients</h1>
+        <Slider />
+        {/* <h3>Silder is comming</h3> */}
+    </div>
+
+    <div class="GroupCompany">
+        <h1>OUR GROUP COMPANIES</h1>
+        <div class='GroupCompanyinner'>
+            <img src={wesupp} alt="" />
+            <img id='img2' src={impedance} alt="" />
+
+
+        </div>
+    </div>
+
+    <div class='OurLeaders'>
+        <h2>Meet Our Founder</h2>
+        <div class='leaderlist'>
+            <Card
+                // imageUrl={modi}
+                name="Saurabh Bhole"
+                position="Founder"
+            />
+        </div>
+        <div class='leaderlist2'>
+            <Card
+                imageUrl=""
+                name="Saurabh Bhole"
+                position="Founder"
+            />
+
+            <Card
+                imageUrl=""
+                name="Saurabh Bhole"
+                position="Founder"
+            />
+
+        </div>
+
+
+    </div>
+
+    <div class="succesStory">
+        <h2>The Story of Our Success</h2>
+        <h5>imgs Comming</h5>
+
+        <div class="succesmid">
+            <div class="succesleft">
+                <h4>Our Vision</h4>
+                <p>To achieve a leadership position in identified domains & technologies.</p>
+            </div>
+            <div class="succesright">
+                <h4>Our Mision</h4>
+                <p>To help our end-customer achieve success by enhancing business performance through digitalization.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="experties">
+        <h2>Industry Expertise and Solutions</h2>
+        <CardGrid />
+
+    </div>
+
+    <div class="Award">
+        <h2>Awards and Rewards</h2>
+        <h4>white card are comming</h4>
+    </div>
+
+    <div class="Inverstor">
+        <h2>Our Invertor</h2>
+        <h4>card are commming</h4>
+    </div>
+
+    <div class="reach">
+        <div class="reachleft">
+            <ContactUs />
+        </div>
+        <div class="reachright">
+            <h5>Shivaji Nagar Pune Maharashtra</h5>
+            <div class="googlemap">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="joinwesupp">
+        <h2>Join wesupp</h2>
+        <button>Join</button>
+    </div>
+
+
+
+
+    <!-- Footer code -->
+
+    <footer>
+        <div class="left">
+            <img src='./Imgs/logo.png' alt="" />
+        </div>
+
+        <div class="container">
+            <ul class="column">
+                <li><a href="#">Insight</a></li>
+                <li><a href="#">Industries</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Investors</a></li>
+            </ul>
+
+            <ul class="column">
+                <li><a href="#">Insight</a></li>
+                <li><a href="#">Industries</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Investors</a></li>
+            </ul>
+
+            <ul class="column">
+                <li><a href="#">Insight</a></li>
+                <li><a href="#">Industries</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Investors</a></li>
+            </ul>
+
+            <ul class="column">
+                <li><a href="#">Accessibility</a></li>
+                <li><a href="#">Cookie policy</a></li>
+                <li><a href="#">Cookie settings</a></li>
+                <li><a href="#">Privacy notice</a></li>
+                <li><a href="#">Security vulnerability notification</a></li>
+                <li><a href="#">SpeakUp</a></li>
+                <li><a href="#">Terms of use</a></li>
+            </ul>
+        </div>
+
+        <div class="copywright">
+            <p>Copyright &copy; 2024 Your Company Name. All rights reserved.</p>
+            <img src='./Imgs/linkedin.svg' alt="" />
+            <img src='./Imgs/meta.svg' alt="" />
+            <img src='./Imgs/instagram.svg' alt="" />
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
