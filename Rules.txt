@@ -1,0 +1,41 @@
+every one follow this rules while development of this project 
+
+For the reuse of single component we are using jquery
+ so while make your pages 
+ make sure you are importing following thing in your project file
+
+ {
+    add jquery script
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    add main Script to every pages
+    <script src="./Main.js"></script>
+
+    while using project header and Footer 
+    add <div id="header"></div>
+    at top of the code
+
+    add <div id="footer"></div>
+    bottom of the code to 
+
+
+    every one uploading their project in folder 
+    like  i am developing About page 
+    so my folder structure like
+
+    About folder
+        AboutCss.css
+        About.html
+        AboutJS.js
+            AboutPageImg
+               bgimg.png
+               profilepic.png
+    
+
+    follow the file structure
+
+    DONT PROVIDE COMMON FILE NAME LIKE 
+        style.css
+        index.css
+        Script.js
+ } 
