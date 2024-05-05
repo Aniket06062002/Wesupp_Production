@@ -6,104 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./Components/Header/Header.css">
-  <link rel="stylesheet" href="./Components/Footer/Footer.css">
-  <link rel="stylesheet" href="./Css/About.css">
+    <link rel="stylesheet" href="./Components/Footer/Footer.css">
+    <link rel="stylesheet" href="./Css/About.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Sider css file -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/b83fc88ea8.js" crossorigin="anonymous"></script>
 
     <script src="./Main.js"></script>
 </head>
 
 <body>
     <div id="header"></div>
-    <!-- Navbar code -->
-    <!-- <div class="navbar" id="navbar">
-        <div class="logo">
-            <img src="./Imgs/logo.png" alt="" />
-
-        </div>
-
-        <div class="navmenu1">
-
-            <ul>
-                <li class="dropdown">
-                    <a to="/">Home</a>
-                    <div class="dropdown-content">
-                        <div class="left">
-                            <h1>Services</h1>
-                            <p>Discover our portfolio – constantly evolving to keep pace with the ever-changing needs of
-                                our
-                                clients.
-                            </p>
-
-                            <button id='button'>Explore More</button>
-
-
-                        </div>
-
-                        <div class="right">
-                            <div class="first">
-                                <a href="#">Softwere Development</a>
-                                <a href="#">Website Development</a>
-                                <a href="#">Mobile Application Development</a>
-                                <a href="#">WordPress</a>
-                            </div>
-                            <div class="second">
-                                <a href="#">Digital Marketing</a>
-                                <a href="#">UI / UX</a>
-                                <a href="#">Content Writing</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a to="DiscoverWesupp">Discover Wesupp</a>
-                </li>
-
-                <li class="dropdown">
-                    <a to="UnderConstructionPage">Work we offer</a>
-
-                </li>
-
-                <li class="dropdown">
-                    <a to="UnderConstructionPage">Insight</a>
-
-                </li>
-
-                <li class="dropdown">
-                    <a to="UnderConstructionPage">Clients</a>
-
-                </li>
-                <li class="dropdown">
-                    <a to="UnderConstructionPage">Hiring</a>
-
-                </li>
-            </ul>
-        </div>
-
-
-        <div class="navmenu2">
-            <ul class="ulist">
-                <li>
-                    <a to="UnderConstructionPage">Investors</a>
-
-                </li>
-                <li>
-                    <a to="UnderConstructionPage">Contact Us</a>
-
-                </li>
-                <li>
-                    <a to="UnderConstructionPage"> Discover</a>
-
-                </li>
-            </ul>
-        </div>
-
-
-    </div> -->
-
     <!-- maincode -->
 
     <div class="About_Container_01">
@@ -136,9 +53,16 @@
     </div>
 
     <div class="OurClient">
-        <h1>Our Clients</h1>
-        <Slider />
-        {/* <h3>Silder is comming</h3> */}
+        <h2>Our Clients</h2>
+        <h5>Explore Our Diverse Portfolio of Valued Clients</h5>
+        <p>Cultivating enduring relationships with our clients remains at the heart of our commitment to delivering
+            exceptional services, driving us to consistently excel in meeting their needs.
+        </p>
+
+        <!-- slider code -->
+
+
+
     </div>
 
     <div class="GroupCompany">
@@ -153,13 +77,40 @@
 
     <div class='OurLeaders'>
         <h2>Meet Our Founder</h2>
-        <div class='leaderlist'>
-            <Card // imageUrl={modi} name="Saurabh Bhole" position="Founder" />
-        </div>
-        <div class='leaderlist2'>
-            <Card imageUrl="" name="Saurabh Bhole" position="Founder" />
 
-            <Card imageUrl="" name="Saurabh Bhole" position="Founder" />
+        <div class="Ourcard-container">
+            <div class="Ourcard">
+                <img src="./AboutIMG/Arvind-Goel.jpg" alt="Circular Image">
+                <h3>Saurabh Bhole</h3>
+                <h5>Director</h5>
+            </div>
+            <div class="Ourcard">
+                <img src="./AboutIMG/Arvind-Goel.jpg" alt="Circular Image">
+                <h3>Saurabh Bhole</h3>
+                <h5>Director</h5>
+            </div>
+
+            
+
+        </div>
+
+        <div class="Ourcard-container">
+            <div class="Ourcard">
+                <img src="./AboutIMG/Arvind-Goel.jpg" alt="Circular Image">
+                <h3>Saurabh Bhole</h3>
+                <h5>Director</h5>
+            </div>
+            <div class="Ourcard">
+                <img src="./AboutIMG/Arvind-Goel.jpg" alt="Circular Image">
+                <h3>Saurabh Bhole</h3>
+                <h5>Director</h5>
+            </div>
+            <div class="Ourcard">
+                <img src="./AboutIMG/Arvind-Goel.jpg" alt="Circular Image">
+                <h3>Saurabh Bhole</h3>
+                <h5>Director</h5>
+            </div>
+           
 
         </div>
 
@@ -185,35 +136,22 @@
 
     <div class="experties">
         <h2>Industry Expertise and Solutions</h2>
-        <CardGrid />
 
     </div>
 
-    <div class="Award">
-        <h2>Awards and Rewards</h2>
-        <h4>white card are comming</h4>
-    </div>
+
 
     <div class="Inverstor">
-        <h2>Our Invertor</h2>
+        <h2>Our Investor</h2>
         <h4>card are commming</h4>
     </div>
 
-    <div class="reach">
-        <div class="reachleft">
-            <ContactUs />
-        </div>
-        <div class="reachright">
-            <h5>Shivaji Nagar Pune Maharashtra</h5>
-            <div class="googlemap">
-
-            </div>
-        </div>
-    </div>
+    
 
     <div class="joinwesupp">
-        <h2>Join wesupp</h2>
-        <button>Join</button>
+        <h2>Follow Wesupp</h2>
+
+
     </div>
 
 
@@ -221,9 +159,13 @@
 
     <div id="footer"></div>
 
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./JS/About.js"></script>
 </body>
 
 </html>

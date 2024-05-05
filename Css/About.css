@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
 .About_Container_01 {
-   
+
     position: relative;
     width: 100%;
     height: 500px;
@@ -18,28 +22,27 @@
     margin-top: 9rem;
     margin-left: 5rem;
     width: 450px;
-    /* Adjust width as needed */
     height: 200px;
     background-color: rgba(255, 255, 255, 0.5);
-    /* Transparent purple color */
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    /* Adjust padding as needed */
     border: 1px;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 70px;
     border-top-right-radius: 130px;
     border-bottom-right-radius: 70px;
 
+
 }
 
 h1 {
     color: #76108d;
-    /* Set heading color */
     font-size: 46px;
     font-weight: 900;
+   
+
 }
 
 .whitearea {
@@ -86,8 +89,7 @@ h1 {
     background-color: azure;
     width: 75%;
     padding: 2rem;
-    height: 10rem;
-
+    height: 13rem;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 70px;
     border-top-right-radius: 30px;
@@ -97,35 +99,35 @@ h1 {
 
 .OurClient {
     /* background-color: azure; */
-    background-color: #ffffff;
-    height: 18rem;
+    background-color: #f5f4f4;
+    height: 30rem;
     padding: 1rem;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
-.underclient{
-    display: flex;
-}
-.underclient img{
-    width: 200px;
-    height: 120px;
-    margin: 1rem;
-}
+/*Client css for slider*/
 
-.GroupCompany{
+
+
+
+.GroupCompany {
     background-color: #EEEEEE;
     height: 20rem;
     padding: 1rem;
     text-align: center;
 
 }
-.GroupCompanyinner{
+
+.GroupCompanyinner {
     margin: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.GroupCompanyinner img{
+
+.GroupCompanyinner img {
     width: 150px;
     height: 125px;
     margin-left: 0rem;
@@ -133,62 +135,89 @@ h1 {
     /* border-radius: 220px; */
 }
 
-#img2{
+#img2 {
     width: 150px;
-    
+
 }
 
-
-.OurLeaders{
-    background-color:#fafafa;
-    /* height: 30rem; */
+/* Leader css */
+.OurLeaders {
+    background-color: #fafafa;
+    height: 45rem;
     padding: 2rem;
     color: #9B26B5;
     text-align: center;
-  
 
 }
-.OurLeaders h2{
-    font-size: 3rem;
+
+.OurLeaders h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
     margin: 0;
 
 }
-.OurLeaders .leaderlist{
+
+.Ourcard-container {
     display: flex;
     justify-content: center;
-    margin-top: -1rem;
-
-}
-.OurLeaders .leaderlist2{
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-
+    align-items: center;
+    margin-bottom: 3rem;
+    
 }
 
-.succesStory{
+.Ourcard {
+    border-radius: 50%;
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    padding: 10px;
+    margin: 2rem;
+   
+}
+
+.Ourcard img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.Ourcard h3 {
+    font-size: 18px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.Ourcard h5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: rgb(24, 23, 23);
+}
+.succesStory {
     background-color: aliceblue;
     padding: 2rem;
     text-align: center;
-  
+
 
 }
 
-.succesmid{
+.succesmid {
     padding: 1rem;
     display: flex;
     justify-content: center;
-    
+
 
 }
-.succesleft{
+
+.succesleft {
     background-color: #14c3f8;
     width: 40rem;
     height: 10rem;
     margin: 1rem;
     padding: 1rem;
 }
-.succesright{
+
+.succesright {
     background-color: #14c3f8;
     width: 40rem;
     height: 10rem;
@@ -197,66 +226,48 @@ h1 {
 
 }
 
-.experties{
+.experties {
     background-color: rgb(255, 255, 255);
     height: 30rem;
     padding: 1rem;
     text-align: center;
 }
 
-.experties h2{
+
+.experties h2 {
     font-size: 2rem;
     margin: 1rem;
     color: #8d03ac;
 
-    
+
 }
 
-.Award{
-    background-color: #EEEEEE;
-    height: 20rem;
-    padding: 1rem;
-    text-align: center;
-}
 
-.Inverstor{
+
+
+
+
+.Inverstor {
     background-color: #fdfdfd;
     height: 20rem;
     padding: 1rem;
     text-align: center;
 }
 
-.reach{
+.reach {
     background-color: #a544bb;
     height: 40rem;
     display: flex;
     justify-content: center;
 }
 
-.reachleft{
+.reachleft {
     width: 30rem;
     height: 15rem;
     padding: 1rem;
     margin: 1rem;
-    
+
 }
 
-.reachright{
-    width: 30rem;
-    height: 15rem;
-    padding: 1rem;
-    margin: 1rem;
-    background-color: #EEEEEE;
-}
 
-.joinwesupp{
-    background-color: #EEEEEE;
-    height: 10rem;
-    text-align: center;
-    padding: 1rem;
-}
-.googlemap{
-    background-color: #a544bb;
-    width: 250px;
-    height: 200px;
-}
+
