@@ -38,4 +38,11 @@ For the reuse of single component we are using jquery
         style.css
         index.css
         Script.js
+
+
+   While pushing code 
+   please write msg in commit what changes you do 
+   
+
+   Example "im working on About pages i changes this this section "
  } 
