@@ -4,150 +4,154 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Mukta", sans-serif;
-
-}
-
-/* HomePage.css */
-
-
+*{
+  margin: 0;
+  padding: 0;
+} 
 
 /* Page structure */
-.home-page {
-    background-color: #f2f2f2;
-    color: #333;
+.Home_home-page {
+  background-color: #f2f2f2;
+  color: #333;
 }
 
 /* Hero section */
-.hero-section {
-    background-image: url('/Imgs/IMG20240425192454.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    text-align: center;
+.Home_hero-section {
+  background-image: url('/Imgs/IMG20240425192454.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
 }
 
-.hero-content h1 {
-    font-size: 4em;
-    
+.Home_hero-content h1 {
+  font-size: 4em;
+
 }
 
-.hero-content p {
-    font-size: 1.5em;
+.Home_hero-content p {
+  font-size: 1.5em;
 }
+
 button {
-    background-color: #673ab7;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1.1em;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease; /* Apply transition to all properties */
-  }
-  
-  /* Add hover effect */
-  button:hover {
-    background-color: #5a2d91; /* Change background color on hover */
-    transform: scale(1.1); /* Increase size on hover */
-  }
+  background-color: #673ab7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  /* Apply transition to all properties */
+}
+
+/* Add hover effect */
+button:hover {
+  background-color: #5a2d91;
+  /* Change background color on hover */
+  transform: scale(1.1);
+  /* Increase size on hover */
+}
 
 /* About section */
-.about-section {
-    padding: 50px;
+.Home_about-section {
+  padding: 50px;
 }
 
-.about-content {
-    max-width: 800px;
-    margin: 0 auto;
+.Home_about-content {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.about-content h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
+.Home_about-content h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
 }
 
-.about-content p {
-    font-size: 1.1em;
-    line-height: 1.6;
+.Home_about-content p {
+  font-size: 1.1em;
+  line-height: 1.6;
 }
 
 /* Services section */
-.services-section {
-    background-color: #673ab7;
-    color: #fff;
-    padding: 50px 0;
+.Home_services-section {
+  background-color: #673ab7;
+  color: #fff;
+  padding: 50px 0;
 }
 
-.services-section  h2{
-   text-align: center;
-   font-size: 2.5rem;
-   font-weight: 600;
+.Home_services-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
 
 }
 
 
 
-.services-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.Home_services-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.service-card {
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 1.5rem;
-    width: 300px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.3s ease; /* Apply transition for smooth scaling */
-    animation: cardHover 0.3s ease forwards; /* Apply animation to card */
-  }
-  
-  /* Define animation */
-  @keyframes cardHover {
-    from {
-      transform: scale(1); /* Initial size */
-    }
-    to {
-      transform: scale(1.05); /* Increased size on hover */
-    }
-  }
-  
-  /* Service card hover effect */
-  .service-card:hover {
-    animation: none; /* Disable animation on hover */
-    transform: scale(1.1); /* Increase size on hover */
+.Home_service-card {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 1.5rem;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  /* Apply transition for smooth scaling */
+  animation: cardHover 0.3s ease forwards;
+  /* Apply animation to card */
+}
+
+/* Define animation */
+@keyframes cardHover {
+  from {
+    transform: scale(1);
+    /* Initial size */
   }
 
-.service-card img{
-    
-    width: 80px;
-    height: 80px;
+  to {
+    transform: scale(1.05);
+    /* Increased size on hover */
+  }
 }
 
-.service-card h3 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    color: #673ab7;
+/* Service card hover effect */
+.Home_service-card:hover {
+  animation: none;
+  /* Disable animation on hover */
+  transform: scale(1.1);
+  /* Increase size on hover */
 }
 
-.service-card p {
-    font-size: 1.1em;
-    line-height: 1.6;
-    color: #673ab7;
+.Home_service-card img {
+
+  width: 80px;
+  height: 80px;
+}
+
+.Home_service-card h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #673ab7;
+}
+
+.Home_service-card p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #673ab7;
 }
 
 /* Contact section */
@@ -155,59 +159,58 @@ button {
 
 /* Global styles */
 
-  /* Contact page container */
-  .contact-container {
-    
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    text-align: center;
-  }
-  
-  /* Contact form */
-  .contact-form {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 50px;
-    border-radius: 10px;
-    max-width: 500px;
-    width: 100%;
-  }
-  
-  .contact-form h2 {
-    margin-bottom: 20px;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.8);
-    color: #333;
-  }
-  
-  .contact-form textarea {
-    height: 150px;
-  }
-  
-  .contact-form button {
-    background-color: #673ab7;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1.1em;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .contact-form button:hover {
-    background-color: #5a2d91;
-  }
-  
+/* Contact page container */
+.Home_contact-container {
+
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+/* Contact form */
+.Home_contact-form {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 50px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.Home_contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.Home_contact-form input,
+.Home_contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+
+.Home_contact-form textarea {
+  height: 150px;
+}
+
+.Home_contact-form button {
+  background-color: #673ab7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Home_contact-form button:hover {
+  background-color: #5a2d91;
+}

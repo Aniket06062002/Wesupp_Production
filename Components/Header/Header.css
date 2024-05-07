@@ -2,6 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /*=============== VARIABLES CSS ===============*/
+
+*{
+    margin: 0;
+    padding: 0;
+} 
+
 :root {
     --header-height: 3.5rem;
     /*========== Colors ==========*/
@@ -11,8 +17,6 @@
     --title-color: hsl(220, 48%, 28%);
     --text-color: hsl(220, 12%, 45%);
     --body-color: hsl(220, 100%, 99%);
-    /*========== Font and typography ==========*/
-    /*.5rem = 8px | 1rem = 16px ...*/
     --body-font: "Poppins", sans-serif;
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
@@ -92,8 +96,8 @@ a {
     color: var(--title-color);
     font-weight: var(--font-semi-bold);
     transition: color 0.3s;
-    margin-left: -4rem;
-    margin-right: 11rem;
+    margin-left: -3rem;
+    margin-right: 8rem;
 }
 
 .nav__logo img {
@@ -128,14 +132,12 @@ a {
     position: relative;
     text-decoration: none;
     color: #c49696;
-    /* Change color as needed */
+ 
 }
 
 .nav__link::after {
-
     content: '';
     position: absolute;
-
     bottom: 2rem;
     left: 0;
     width: 0;
@@ -144,7 +146,7 @@ a {
     background-color: #000;
     /* Border color */
     transition: width 0.3s ease;
-    /* Animation duration and timing function */
+   
 }
 
 .nav__list a {
