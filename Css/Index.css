@@ -9,208 +9,66 @@
   padding: 0;
 } 
 
-/* Page structure */
-.Home_home-page {
-  background-color: #f2f2f2;
-  color: #333;
+.carousel-item img {
+  height: 40rem;
 }
 
-/* Hero section */
-.Home_hero-section {
-  background-image: url('/Imgs/IMG20240425192454.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  text-align: center;
-}
-
-.Home_hero-content h1 {
-  font-size: 4em;
-
-}
-
-.Home_hero-content p {
-  font-size: 1.5em;
-}
-
-button {
-  background-color: #673ab7;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1.1em;
-  border-radius: 5px;
-  cursor: pointer;
+.card {
+  border: 1px solid #ced4da;
+  /* Add a 1px border */
   transition: all 0.3s ease;
-  /* Apply transition to all properties */
+  /* Add transition effect */
+  width: 18rem;
+  height: 18rem;
 }
 
-/* Add hover effect */
-button:hover {
-  background-color: #5a2d91;
-  /* Change background color on hover */
-  transform: scale(1.1);
+.card:hover {
+  transform: scale(1.05);
   /* Increase size on hover */
 }
 
-/* About section */
-.Home_about-section {
-  padding: 50px;
+.card img {
+  width: 100px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.Home_about-content {
-  max-width: 800px;
-  margin: 0 auto;
-}
+.carousel-caption {
+  right: 40%;
+  left: auto;
 
-.Home_about-content h2 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-
-.Home_about-content p {
-  font-size: 1.1em;
-  line-height: 1.6;
-}
-
-/* Services section */
-.Home_services-section {
-  background-color: #673ab7;
-  color: #fff;
-  padding: 50px 0;
-}
-
-.Home_services-section h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 600;
-
-}
-
-
-
-.Home_services-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.Home_service-card {
-  background-color: #fff;
-  border-radius: 5px;
-  padding: 20px;
-  margin: 1.5rem;
-  width: 300px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: transform 0.3s ease;
-  /* Apply transition for smooth scaling */
-  animation: cardHover 0.3s ease forwards;
-  /* Apply animation to card */
-}
-
-/* Define animation */
-@keyframes cardHover {
-  from {
-    transform: scale(1);
-    /* Initial size */
-  }
-
-  to {
-    transform: scale(1.05);
-    /* Increased size on hover */
-  }
-}
-
-/* Service card hover effect */
-.Home_service-card:hover {
-  animation: none;
-  /* Disable animation on hover */
-  transform: scale(1.1);
-  /* Increase size on hover */
-}
-
-.Home_service-card img {
-
-  width: 80px;
-  height: 80px;
-}
-
-.Home_service-card h3 {
-  font-size: 1.2em;
-  margin-bottom: 10px;
-  color: #673ab7;
-}
-
-.Home_service-card p {
-  font-size: 1.1em;
-  line-height: 1.6;
-  color: #673ab7;
-}
-
-/* Contact section */
-/* ContactPage.css */
-
-/* Global styles */
-
-/* Contact page container */
-.Home_contact-container {
-
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
   text-align: center;
 }
 
-/* Contact form */
-.Home_contact-form {
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 50px;
-  border-radius: 10px;
-  max-width: 500px;
-  width: 100%;
+.carousel-item {
+  height: 30rem;
 }
 
-.Home_contact-form h2 {
-  margin-bottom: 20px;
+.service-card {
+  border: 1px solid #ddd;
+  transition: transform 0.3s;
 }
 
-.Home_contact-form input,
-.Home_contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #333;
+.service-card:hover {
+  transform: scale(1.05);
 }
 
-.Home_contact-form textarea {
-  height: 150px;
+.card-img-top {
+  width: 50px;
+  /* Adjust size as needed */
+  height: auto;
+  margin: 10px auto;
 }
 
-.Home_contact-form button {
-  background-color: #673ab7;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1.1em;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
+@media (min-width: 992px) {
+  .card-deck .card {
+    flex: 1 0 calc(20% - 20px);
+    /* Adjust this value to change the number of cards per row */
+    margin-right: 20px;
+  }
 
-.Home_contact-form button:hover {
-  background-color: #5a2d91;
+  .card-deck .card:last-child {
+    margin-right: 0;
+  }
 }

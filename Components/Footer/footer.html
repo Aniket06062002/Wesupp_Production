@@ -1,72 +1,102 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./Css/Footer.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <Style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+        footer{
+            padding-top: 1rem;
+        }
+
+        .col-md-3 img {
+            width: 100px;
+            filter: brightness(0.4) contrast(0.8) invert(1) sepia(1) saturate(7900%) hue-rotate(280deg);
+        }
+
+        .list-unstyled a {
+            text-decoration: none;
+            list-style: none;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            color: blueviolet;
+        }
+
+        .list-unstyled li {
+            padding: 0.5rem;
+        }
+        .list-inline i{
+            font-size: 2rem;
+            padding: 1rem;
+        }
+    </Style>
 </head>
 
 <body>
-    <footer>
-        <div class="footer_left">
-            <img src='./../../Imgs/logo.png' alt="" />
-        </div>
+    <footer class="bg-light text-dark py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="/Imgs/logo.png" alt="Logo" class="img-fluid">
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-4">
 
-        <div class="footer_container">
-            <ul class="footer_column">
-                <li><a href="#">Insight</a></li>
-                <li><a href="#">Industries</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#">Investors</a></li>
-            </ul>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Service</a></li>
+                                <li><a href="#">Carrier</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
 
-            <ul class="footer_column">
-                <li><a href="#">Insight</a></li>
-                <li><a href="#">Industries</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#">Investors</a></li>
-            </ul>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Web Developement</a></li>
+                                <li><a href="#">App Developement</a></li>
+                                <li><a href="#">WordPress</a></li>
+                                <li><a href="#">UIUX</a></li>
+                                <li><a href="#">WordPress</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
 
-            <ul class="footer_column">
-                <li><a href="#">Insight</a></li>
-                <li><a href="#">Industries</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#">Investors</a></li>
-            </ul>
-
-            <ul class="footer_column">
-                <li><a href="#">Accessibility</a></li>
-                <li><a href="#">Cookie policy</a></li>
-                <li><a href="#">Cookie settings</a></li>
-                <li><a href="#">Privacy notice</a></li>
-                <li><a href="#">Security vulnerability notification</a></li>
-                <li><a href="#">SpeakUp</a></li>
-                <li><a href="#">Terms of use</a></li>
-            </ul>
-        </div>
-
-        <div class="footer_copywright">
-            <p>Copyright &copy; 2024 Your Company Name. All rights reserved.</p>
-            <img src='../../Imgs/linkedin.svg' alt="" />
-            <img src='../../Imgs/meta.svg' alt="" />
-            <img src='../../Imgs/instagram.svg' alt="" />
+                            <ul class="list-unstyled">
+                                <li><a href="#">Link 1</a></li>
+                                <li><a href="#">Link 2</a></li>
+                                <li><a href="#">Link 3</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2024 Your Company. All rights reserved.</p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa-brands fa-linkedin"></i></i></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

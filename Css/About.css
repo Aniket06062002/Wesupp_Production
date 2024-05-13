@@ -17,6 +17,14 @@
     background-image: url("/Imgs/Vr.jpg");
 }
 
+h2{
+    font-size: 2rem;
+    margin: 1rem;
+    color: #8d03ac;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+}
+
 .About_purpleArea {
     position: absolute;
     margin-top: 9rem;
@@ -71,12 +79,6 @@
     padding: 2rem;
 }
 
-.About_knoebetter h2 {
-    font-size: 34px;
-    color: #8d03ac;
-    font-family: "Open Sans", sans-serif;
-
-}
 
 .About_knoebetter p {
     margin: 1rem;
@@ -124,6 +126,14 @@
     justify-content: center;
 }
 
+.About_GroupCompany h2{
+    font-size: 2rem;
+    margin: 1rem;
+    color: #470157;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
 .About_GroupCompanyinner img {
     width: 120px;
     height: 120px;
@@ -147,14 +157,14 @@
 
 }
 
-.About_OurLeaders h2 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-size: 2.5rem;
-    margin: 0;
+.About_OurLeaders h2{
+    font-size: 2rem;
+    margin: 1rem;
+    color: #470157;
     font-family: "Open Sans", sans-serif;
-
+    font-weight: 600;
 }
+
 
 .About_Ourcard-container {
     display: flex;
@@ -198,9 +208,16 @@
     background-color: aliceblue;
     padding: 2rem;
     text-align: center;
-
-
 }
+.About_succesStory h2{
+    font-size: 2rem;
+    margin: 1rem;
+    color: #470157;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+
 
 .About_succesmid {
     padding: 1rem;
@@ -245,24 +262,32 @@
     text-align: center;
 }
 
+.About_experties h2{
+    font-size: 2rem;
+    margin: 1rem;
+    color: #470157;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+
 .About_Inverstor {
     background-color: #EEEEEE;
     height: 20rem;
 }
 
-
-/* .About_experties h2 {
-    font-size: 2rem;
-    margin: 1rem;
-    color: #8d03ac;
-    font-family: "Open Sans", sans-serif;
-
-
-} */
 .About_Follow {
     text-align: center;
     background: #ffffff;
     height: 10rem;
+}
+
+.About_Follow h2{
+    font-size: 2rem;
+    margin: 1rem;
+    color: #470157;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
 }
 
 

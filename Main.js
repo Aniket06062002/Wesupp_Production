@@ -2,20 +2,13 @@
 $(function () {
     // Function to load header and footer
     function loadHeaderFooter() {
-        // Load header
-        // $.get("header.html", function (data) {
-        //     $("#header").html(data);
-        // });
-
-        $.get("/Components/Header/header.html", function (data) {
+      
+        $.get("/Components/Header/Navbar.html", function (data) {
             $("#header").html(data);
         });
-        // Load footer
-        // $.get("footer.html", function (data) {
-        //     $("#footer").html(data);
-        // });
+       
 
-        $.get("/Components/Footer/footer.html", function (data) {
+        $.get("/Components/Footer/Footer.html", function (data) {
             $("#footer").html(data);
         });
     }
@@ -23,3 +16,5 @@ $(function () {
     loadHeaderFooter();
 });
 
+var myCarousel = document.querySelector('#carouselExampleCaptions')
+var carousel = new bootstrap.Carousel(myCarousel)

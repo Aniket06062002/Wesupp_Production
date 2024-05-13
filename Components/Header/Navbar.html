@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+        .navbar-brand img {
+            width: 70px;
+            height: auto;
+            filter: brightness(0.4) contrast(0.8) invert(1) sepia(1) saturate(7900%) hue-rotate(280deg);
+
+        }
+
+        .navbar-nav .dropdown-menu {
+            margin-top: 1rem;
+            /* Adjust the value as needed */
+        }
+
+        /* Show the dropdown on hover */
+        .nav-item.dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
+        .nav-item a {
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 16px;
+            color: blueviolet;
+            margin-left: 1.2rem;
+
+        }
+
+        #dropleft {
+            background-color: blueviolet;
+            color: azure;
+           padding: 2rem;
+            top: 0;
+            bottom: 0;
+        }
+        .col-md-3 a{
+            padding: 1rem;
+            font-weight: 400;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#"><img src="/Imgs/logo.png" alt="Logo"></a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a a class="nav-link" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Discover Wesupp
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown"
+                            style="width: 100vw; position: fixed; left: 0; padding: 0;">
+                            <div class="row">
+                                <div class="col-md-3" id="dropleft">
+                                    <h3>Discover Wesupp</h3>
+                                    <p>At Wesupp, we believe in fostering a culture of collaboration, where every voice
+                                        is valued and ideas are encouraged to flourish</p>
+                                    <button>Who we are</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <a class="dropdown-item" href="/About.html">Who we Are</a>
+                                    <a class="dropdown-item" href="#">Our Client</a>
+                                    <a class="dropdown-item" href="#">Wesupp Founder</a>
+                                    <a class="dropdown-item" href="#">Wesupp Team</a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a class="dropdown-item" href="#">Our Inverstor</a>
+                                    <a class="dropdown-item" href="#">Our Experties</a>
+                                    <a class="dropdown-item" href="#">Awards</a>
+                                    <a class="dropdown-item" href="#">Wesupp Group Company</a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a class="dropdown-item" href="#">Partner Company</a>
+                                    <a class="dropdown-item" href="#">Our Business</a>
+                                    <a class="dropdown-item" href="#">Our Vision</a>
+                                    <a class="dropdown-item" href="#">Our Mission</a>
+                                    <a class="dropdown-item" href="#">Wesupp Life</a>
+                                </div>
+                                <!-- Add more columns as needed -->
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a a class="nav-link" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Work we Offer
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown"
+                            style="width: 100vw; position: fixed; left: 0; padding: 0;">
+                            <div class="row">
+                                <div class="col-md-3" id="dropleft">
+                                    <h3>Work we Offer</h3>
+                                    <p>At Wesupp, we believe in fostering a culture of collaboration, where every voice
+                                        is valued and ideas are encouraged to flourish</p>
+                                    <button>Explore</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <a class="dropdown-item" href="#">Data Analysis</a>
+                                    <a class="dropdown-item" href="#">Business Analysis</a>
+                                    <a class="dropdown-item" href="#">Finacial Analysis</a>
+                                    <a class="dropdown-item" href="#">Operational Analysis</a>
+                                    <a class="dropdown-item" href="#">Sales and Marketing Analysis</a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a class="dropdown-item" href="#">App Development</a>
+                                    <a class="dropdown-item" href="#">Web Development</a>
+                                    <a class="dropdown-item" href="#">Business Applications</a>
+                                    <a class="dropdown-item" href="#">WordPress</a>
+                                    <a class="dropdown-item" href="#">UIUX</a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a class="dropdown-item" href="#">IOT Solutions</a>
+                                    
+                                </div>
+                                <!-- Add more columns as needed -->
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Carrier.html">Carrier</a>
+                    </li>
+                </ul>
+
+                <!-- Right Side Links -->
+                <ul class="navbar-nav ml-auto navbar-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Investor</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
