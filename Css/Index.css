@@ -160,3 +160,16 @@
   padding-top: 10px;
 
 }
+
+#HomeContact{
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+
+}
+
+#HomeContact h2{
+  font-family: "Poppins", sans-serif;
+  font-size: 34px;
+  font-weight: 600;
+
+}
