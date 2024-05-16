@@ -1,308 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-  } 
-.About_Container_01 {
-    position: relative;
-    width: 100%;
-    height: 500px;
-
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
-    background-image: url("/Imgs/Vr.jpg");
-}
-
-h2{
-    font-size: 2rem;
-    margin: 1rem;
-    color: #8d03ac;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 800;
-}
-
-.About_purpleArea {
-    position: absolute;
-    margin-top: 9rem;
-    margin-left: 5rem;
-    width: 450px;
-    height: 200px;
-    background-color: rgba(255, 255, 255, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    border: 1px;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 70px;
-    border-top-right-radius: 130px;
-    border-bottom-right-radius: 70px;
-
+* {
+    font-family: "Poppins", sans-serif;
 
 }
 
-.About_whitearea {
-    z-index: 4;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 1rem;
-    width: 750px;
-    height: 12rem;
-    background-color: rgb(255, 255, 255);
-    margin-top: -3rem;
-    margin-left: 3rem;
-
-}
-
-.About_whitearea h4 {
-    font-size: 30px;
-    font-family: "Open Sans", sans-serif;
-
-}
-
-.About_whitearea p {
-    font-size: 18px;
-    font-family: "Open Sans", sans-serif;
-
+.Aboutarea1 {
+    padding: 1rem;
+    background: linear-gradient(to right, #9eb3f7, rgb(73, 129, 194), #1d4fb9);
 }
 
 
-.About_knoebetter {
+.Aboutarea1 h2 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding-left: 4rem;
     margin-top: 5rem;
-    background-color: #EEEEEE;
-    background-image: url(../AboutIMG/rocket\ start.jpg);
-    height: 20rem;
-    padding: 2rem;
-}
 
-
-.About_knoebetter p {
-    margin: 1rem;
-    font-size: 16px;
-    color: #8d03ac;
-    background-color: azure;
-    width: 75%;
-    padding: 2rem;
-    height: 13rem;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 70px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 90px;
-    font-family: "Open Sans", sans-serif;
 
 }
 
-.About_OurClient {
-    /* background-color: azure; */
-    background-color: #f5f4f4;
-    height: 30rem;
+.Aboutarea1 p {
     padding: 1rem;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-/*Client css for slider*/
-
-
-
-
-.About_GroupCompany {
-    background-color: #ffffff;
-    height: 20rem;
-    padding: 1rem;
-    text-align: center;
-
-}
-
-.About_GroupCompanyinner {
-    margin: 2.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.About_GroupCompany h2{
-    font-size: 2rem;
-    margin: 1rem;
-    color: #470157;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-}
-
-.About_GroupCompanyinner img {
-    width: 120px;
-    height: 120px;
-    margin-left: 0rem;
-    margin-right: 2rem;
-    /* border-radius: 220px; */
-}
-
-#img2 {
-    width: 150px;
-
-}
-
-/* Leader css */
-.About_OurLeaders {
-    background-color: #fafafa;
-    height: 45rem;
-    padding: 2rem;
-    color: #9B26B5;
-    text-align: center;
-
-}
-
-.About_OurLeaders h2{
-    font-size: 2rem;
-    margin: 1rem;
-    color: #470157;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-}
-
-
-.About_Ourcard-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 3rem;
-
-}
-
-.About_Ourcard {
-    border-radius: 50%;
-    width: 200px;
-    height: 170px;
-    text-align: center;
-    padding: 10px;
-    margin: 2rem;
-
-}
-
-.About_Ourcard img {
-    max-width: 100%;
-    border-radius: 50%;
-    margin: 1rem;
-}
-
-.About_Ourcard h3 {
     font-size: 18px;
-    color: black;
-    font-family: "Poppins", sans-serif;
-    font-family: "Open Sans", sans-serif;
+    color: beige;
+    margin-left: 4rem;
+    align-items: start;
+
 }
 
-.About_Ourcard h5 {
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    color: rgb(24, 23, 23);
-    font-family: "Open Sans", sans-serif;
-}
-
-.About_succesStory {
-    background-color: aliceblue;
+.Aboutarea1 img {
     padding: 2rem;
-    text-align: center;
-}
-.About_succesStory h2{
-    font-size: 2rem;
-    margin: 1rem;
-    color: #470157;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
+    animation: bounce 5s infinite;
+
+
 }
 
+@keyframes bounce {
 
+    0%,
+    100% {
+        transform: translateY(0);
+    }
 
-.About_succesmid {
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.Aboutarea2{
+    background-color: rgb(240, 237, 255);
     padding: 1rem;
-    display: flex;
-    justify-content: center;
-
-
+    align-items: center;
 }
 
-.About_succesleft,
-.About_succesright {
-    background-color: #14c3f8;
-    width: 40rem;
-    height: 15rem;
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 10px;
-
-}
-
-.About_succesleft,
-.About_succesright h4{
-    text-align: center;
-
-}
-
-.About_succesleft p{
-    text-align: left;
-    list-style-type: disc;
-
-}
-.About_succesright p{
-    text-align: left;
-    list-style-type: disc;
-
-}
-
-.About_experties {
-    background-color: rgb(231, 230, 230);
-    height: 30rem;
-    padding: 1rem;
-    text-align: center;
-}
-
-.About_experties h2{
-    font-size: 2rem;
-    margin: 1rem;
-    color: #470157;
-    font-family: "Open Sans", sans-serif;
+.Aboutarea2 h2{
+   color: blueviolet;
+    font-size: 36px;
     font-weight: 600;
+    padding: 2rem;
+
 }
+.Aboutarea2 p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 4rem;
+    padding-right: 4rem;
 
-
-.About_Inverstor {
-    background-color: #EEEEEE;
-    height: 20rem;
-}
-
-.About_Follow {
-    text-align: center;
-    background: #ffffff;
-    height: 10rem;
-}
-
-.About_Follow h2{
-    font-size: 2rem;
-    margin: 1rem;
-    color: #470157;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-}
-
-
-.About_followarea ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.About_followarea ul li {
-    display: inline-block;
-}
-
-.About_followarea ul li img {
-    width: 60px;
-    /* Adjust image size as needed */
-    height: auto;
-    margin: 1rem;
 }
