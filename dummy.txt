@@ -1,0 +1,159 @@
+<div class="container-fluid" id="homeservices">
+    <h2>Our Services</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+      <div class="col mb-4">
+        <div class="card" id="servicecard">
+          <img src="/Imgs/robotic-hand.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h3 class="card-title">Data Analysis</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="/Imgs/robotic-hand.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h3 class="card-title">Business Analytics</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="/Imgs/robotic-hand.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h3 class="card-title">Financial Analytics</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="/Imgs/robotic-hand.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h3 class="card-title">Operational Analytics</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="/Imgs/robotic-hand.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h3 class="card-title">Sales & Marketing</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="/Imgs/robotic-hand.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h3 class="card-title">IoT & Wearables</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card">
+          <img src="/Imgs/robotic-hand.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h3 class="card-title">Application Development</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card">
+          <img src="/Imgs/robotic-hand.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h3 class="card-title">Mobility Solutions</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card">
+          <img src="/Imgs/robotic-hand.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h3 class="card-title">WordPress</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card">
+          <img src="/Imgs/robotic-hand.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h3 class="card-title">Web Development</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card">
+          <img src="/Imgs/robotic-hand.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h3 class="card-title">AI ML Solutions</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card">
+          <img src="/Imgs/robotic-hand.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h3 class="card-title">Independant Testing & Solution</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card">
+          <img src="/Imgs/robotic-hand.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h3 class="card-title">Social Media Marketing</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card">
+          <img src="/Imgs/robotic-hand.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h3 class="card-title">Technical Consulting</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card">
+          <img src="/Imgs/robotic-hand.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h3 class="card-title">Cloud Application</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card">
+          <img src="/Imgs/robotic-hand.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h3 class="card-title">Intelligent Automation</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
