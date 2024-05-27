@@ -4,21 +4,21 @@
 
 
 .background-image {
-    /* background-image: url('your-image-url.jpg'); */
     background: linear-gradient(to right, #9eb3f7, rgb(73, 129, 194), #1d61b9);
-    background-size: cover;
-    background-position: center;
-    height: 60vh;
     position: relative;
-    color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 50vh; /* Adjust as needed */
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
+    color: aliceblue;
+
 }
 
 .heading {
